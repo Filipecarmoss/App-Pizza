@@ -18,7 +18,7 @@
 
     <LinearLayout
         style="@style/linearlayout_padrao.vertical"
-        android:background="@color/black"
+        android:background="@color/fundo"
         android:layout_weight="1"
         android:padding="16dp"
         >
@@ -36,6 +36,9 @@
             >
             <EditText
                 android:id="@+id/log_etUsuario"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:padding="20dp"
                 style="@style/edittext_padrao.usuario"
                 />
         </androidx.cardview.widget.CardView>
@@ -47,6 +50,9 @@
             >
             <EditText
                 android:id="@+id/log_etSenha"
+                android:inputType="numberPassword"
+                android:maxLines="1"
+                android:padding="20dp"
                 style="@style/edittext_padrao.senha"
                 />
         </androidx.cardview.widget.CardView>
@@ -54,6 +60,7 @@
         <Button
             android:id="@+id/log_bEntrar"
             style="@style/button_padrao.login"
+            android:padding="16dp"
             android:text="@string/btn_entrar"
             />
 
