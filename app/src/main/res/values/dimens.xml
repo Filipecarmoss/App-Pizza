@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- espaco -->
+    <dimen name="espaco_padrao">16dp</dimen>
+
+    <!-- radius -->
+    <dimen name="radius_cardview">4dp</dimen>
+    <dimen name="radius_cardview.item_lista">10dp</dimen>
+    <dimen name="radius_cardview_edittext">7dp</dimen>
+
+    <!-- elevation -->
+    <dimen name="elevation_cardview">4dp</dimen>
+
+    <!-- margin -->
+    <dimen name="margin_bottom_titulo">10dp</dimen>
+    <dimen name="margin_top_button">16dp</dimen>
+
+    <!-- padding -->
+
+</resources>

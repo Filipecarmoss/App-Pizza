@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.CheckoutActivity"
+    style="@style/linearlayout_padrao.vertical"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/che_tvTitulo"
+        style="@style/textview_padrao.titulo"
+        android:text="Compra efetuada\ncom sucesso"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        />
+
+    <ImageView
+        android:id="@+id/piz_det_ivPizza"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/ic_checkout_ok"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        />
+
+    <Button
+        android:id="@+id/log_bEntrar"
+        style="@style/button_padrao.login"
+        android:text="@string/btn_entrar"
+        />
+
+</LinearLayout>

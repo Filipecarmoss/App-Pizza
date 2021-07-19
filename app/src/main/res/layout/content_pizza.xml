@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.PizzaActivity"
+    style="@style/linearlayout_padrao.vertical.bg_activity"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.cardview.widget.CardView
+        style="@style/cardview_padrao.box_edittext"
+        app:cardCornerRadius="@dimen/radius_cardview_edittext"
+        app:cardElevation="@dimen/elevation_cardview"
+        android:layout_marginLeft="@dimen/espaco_padrao"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="@dimen/espaco_padrao"
+        android:layout_marginBottom="@dimen/espaco_padrao"
+        >
+        <EditText
+            android:id="@+id/log_etSenha"
+            style="@style/edittext_padrao.pesquisa"
+            android:drawableLeft="@drawable/ic_search"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        style="@style/textview_padrao.descricao"
+        android:text="@string/escolha_seu_sabor"
+        android:layout_marginLeft="@dimen/espaco_padrao"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="@dimen/espaco_padrao"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mai_rvPizzas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/layout_lista_pizzas"
+        android:scrollbars="vertical"
+        android:clipToPadding="false"
+        android:scrollbarStyle="insideOverlay"
+        android:paddingTop="@dimen/espaco_padrao"
+        />
+
+</LinearLayout>

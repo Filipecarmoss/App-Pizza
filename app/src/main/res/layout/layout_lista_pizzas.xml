@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/cardview_padrao"
+    app:cardCornerRadius="@dimen/radius_cardview.item_lista"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@color/bg_item_lista">
+
+    <LinearLayout
+        style="@style/linearlayout_padrao.horizontal"
+        android:background="@color/bg_item_lista"
+        >
+
+        <ImageView
+            android:id="@+id/layout_lista_piz_ivPizza"
+            android:layout_width="170dp"
+            android:layout_height="110dp"
+            android:src="@drawable/ic_pizza"
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            style="@style/linearlayout_padrao.vertical"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="3dp"
+            >
+
+            <TextView
+                android:id="@+id/layout_lista_piz_tvTitulo"
+                style="@style/textview_padrao.titulo_item"
+                tools:text="Pizza de Pepperoni"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                style="@style/textview_padrao.descricao_item.label_apartir"
+                android:text="@string/a_partir"
+                />
+
+            <TextView
+                android:id="@+id/layout_lista_piz_tvValor"
+                style="@style/textview_padrao.valor_item"
+                tools:text="R$ 29,99"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

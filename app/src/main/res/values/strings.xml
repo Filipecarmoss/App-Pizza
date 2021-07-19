@@ -1,0 +1,21 @@
+<resources>
+    <!-- padrao -->
+    <string name="app_name">Manda Pizza</string>
+
+    <!-- hint -->
+    <string name="hint_pesquisa">Search</string>
+    <string name="hint_senha">Senha</string>
+    <string name="hint_usuario">Usuário</string>
+
+    <!-- button -->
+    <string name="btn_comprar">Comprar</string>
+    <string name="btn_entrar">Entrar</string>
+
+    <!-- geral -->
+    <string name="a_partir">a partir de:</string>
+    <string name="escolha_o_tamanho">Escolha o tamanho</string>
+    <string name="escolha_seu_sabor">Escolha seu sabor</string>
+    <string name="mensagem_sucesso_checkout">Compra efetuada\ncom sucesso</string>
+
+
+</resources>

@@ -1,0 +1,2 @@
+rootProject.name = "Manda Pizza"
+include ':app'

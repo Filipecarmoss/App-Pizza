@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".view.PizzaDetalheActivity"
+    style="@style/linearlayout_padrao.vertical"
+    android:layout_height="match_parent"
+    android:background="@color/bg_item_lista"
+    >
+
+    <ImageView
+        android:id="@+id/piz_det_ivPizza"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/ic_pizza_full"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        style="@style/linearlayout_padrao.vertical"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:id="@+id/piz_det_tvTitulo"
+            style="@style/textview_padrao.titulo"
+            tools:text="Pizza de Pepperoni"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            style="@style/textview_padrao.descricao"
+            android:text="@string/escolha_o_tamanho"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/piz_det_tvValor"
+            style="@style/textview_padrao.titulo"
+            tools:text="Pizza de Pepperoni"
+            android:layout_marginBottom="10dp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/piz_det_bComprar"
+        style="@style/button_padrao"
+        android:layout_height="70dp"
+        android:text="@string/btn_comprar"
+        android:layout_gravity="bottom"
+        />
+
+</LinearLayout>

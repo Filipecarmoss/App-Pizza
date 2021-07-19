@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/body_background</item>
+        <item name="android:textViewStyle">@style/MyTextView</item>
+    </style>
+    <style name="MyTextView">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@color/text_toolbar</item>
+    </style>
+
+    <!-- Toolbar padrao -->
+    <style name="ToolbarColoredBackArrow" parent="AppTheme">
+        <item name="android:textColorSecondary">@color/text_toolbar</item>
+    </style>
+    <style name="appbarlayout_padrao">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:theme">@style/AppTheme.AppBarOverlay</item>
+    </style>
+    <style name="toolbar_padrao">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <!-- linearlayout -->
+    <style name="linearlayout_padrao">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="linearlayout_padrao.vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="linearlayout_padrao.vertical.bg_activity">
+        <item name="android:background">@color/black</item>
+    </style>
+    <style name="linearlayout_padrao.vertical.weight">
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="linearlayout_padrao.horizontal">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- textview padrao -->
+    <style name="textview_padrao">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="textview_padrao.titulo">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="textview_padrao.descricao">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="textview_padrao.titulo_item">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="textview_padrao.valor_item">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginTop">-5dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="textview_padrao.descricao_item">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="textview_padrao.descricao_item.label_apartir">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <!-- cardview padrao -->
+    <style name="cardview_padrao">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+    </style>
+    <style name="cardview_padrao.box_edittext">
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <!-- edittext padrao -->
+    <style name="edittext_padrao">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+    <style name="edittext_padrao.usuario">
+        <item name="android:hint">@string/hint_usuario</item>
+    </style>
+    <style name="edittext_padrao.senha">
+        <item name="android:hint">@string/hint_senha</item>
+    </style>
+    <style name="edittext_padrao.pesquisa">
+        <item name="android:hint">@string/hint_pesquisa</item>
+    </style>
+
+    <!-- button padrao -->
+    <style name="button_padrao">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_button</item>
+    </style>
+    <style name="button_padrao.login">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">280dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+
+</resources>
